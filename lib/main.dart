@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todoapp/views/homePage.dart';
 import 'package:todoapp/views/splashScreen.dart';
 
 
@@ -11,11 +12,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'My ToDo App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(        
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightBlue,
+        accentColor: Colors.redAccent,   
+        iconTheme: IconThemeData(color: Colors.white)
       ),
-      home: SplashScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => SplashScreen(),
+        '/home': (context) => HomePage()
+      },
     );
   }
 }
