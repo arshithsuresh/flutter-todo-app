@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.todoapp">
+    package="com.fluttercoursesoc.todoapp">
    <application
         android:label="todoapp"
         android:icon="@mipmap/ic_launcher">
