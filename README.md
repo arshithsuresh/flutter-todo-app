@@ -1,11 +1,19 @@
 # Introduction to App Development Using Flutter  
 ## Hands on Course | Open Source Club | Saintgits College of Engineering  
 This repository is a part of Hands On Course on Flutter App Development.  
-This branch contains the finished part of the flutter app with out the API integrations. 
+This branch contains the finished part of the flutter app with Backend. 
 You can refer to the code here for clearing doubts  
 It is documented for easy reading as well.  
   
+  Backend Used is Firebase Firestore
+## How to install Firestore  
+Documentations on how to is install firstore in a flutter app can be found at  
+`https://firebase.flutter.dev/docs/overview/`  
+  
 ## How to run the app  
+The current reposistory doesn't have the google-services.json file.  
+It is exculed intentionlly for privacy issues.  
+Please follow the step mentioned in the above link to create your own config for the same.  
 Goto the app directory and run  
 `flutter run`  
   
